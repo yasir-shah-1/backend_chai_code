@@ -13,6 +13,10 @@ app.get('/health', (req, res) => {
   res.send('OK - Application is healthy!')
 })
 
+app.get('/school', (req, res) => {
+  res.send('OK - Application is healthy!')
+})
+
  
 // app.post('/data', (req, res) => {
 //   // Handle POST request to /data
